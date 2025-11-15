@@ -45,6 +45,3 @@ class FinanceAnalyzer:
         
         return dict(zip(category, costs))
 
-BellaShop = FinanceAnalyzer('transaction.csv')
-all_data = BellaShop.FetchData()
-print(BellaShop.ReportExpenses())
